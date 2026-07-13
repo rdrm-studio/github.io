@@ -1,15 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RDRM Studio</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Aquí le decimos que busque el CSS en la nueva carpeta -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-        <div class="logo">RDRM</div>
+        <div class="logo">
+            <!-- Espacio para tu logo -->
+            RDRM Studio
+        </div>
         <nav>
             <ul>
                 <li><a href="#merch">Merch</a></li>
@@ -23,25 +26,23 @@
     </header>
 
     <section id="hero">
-        <div class="slider" id="slider">
-            <!-- Las imágenes se cargarán vía JS -->
-        </div>
+        <div class="slider" id="slider"></div>
     </section>
 
     <main id="portfolio">
-        <!-- Contenido generado dinámicamente o estructurado -->
         <section id="merch" class="work-section">
-            <h2>Merch</h2>
+            <h2>Merch_Jose Madero</h2>
+            <p class="section-desc">Description of the shown merch designs</p>
             <div class="grid">
-                <!-- Ejemplo de tarjeta -->
                 <div class="item">
-                    <img src="jose-madero-bestia.png" alt="Merch Design">
-                    <p>Merch_Jose Madero</p>
+                    <!-- Aquí llamamos a la imagen que tienes en la raíz -->
+                    <img src="jose-madero-bestia.png" alt="Merch Jose Madero Front">
                 </div>
             </div>
         </section>
     </main>
 
-    <script src="script.js"></script>
+    <!-- Aquí le decimos que busque el JS en la nueva carpeta -->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
